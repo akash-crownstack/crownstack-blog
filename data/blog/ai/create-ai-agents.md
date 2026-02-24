@@ -9,8 +9,6 @@ layout: PostSimple
 authors: ['akash-srivastava']
 ---
 
----
-
 ## Introduction
 
 AI-powered coding assistants have evolved far beyond simple autocomplete. Today, tools like **Claude Code** and **Cursor** allow developers to build **custom agents** — autonomous workflows that can read your codebase, make decisions, and execute multi-step tasks with minimal human intervention.
@@ -501,13 +499,13 @@ Small, focused agents are easier to debug, test, and improve.
 
 Here's how to build your first agent today:
 
-- [ ] **Choose your tool**: Claude Code (CLI) or Cursor (IDE)
-- [ ] **Document your conventions**: Create a `CLAUDE.md` or `.cursorrules` file
-- [ ] **Pick a single task**: Start small — a linter, a naming checker, a test verifier
-- [ ] **Write explicit instructions**: Define steps, output format, and boundaries
-- [ ] **Test it on real code**: Run the agent against your current branch
-- [ ] **Iterate on the instructions**: Refine based on what the agent gets wrong
-- [ ] **Share with your team**: Commit the configuration files to version control
+1. **Choose your tool**: Claude Code (CLI) or Cursor (IDE)
+2. **Document your conventions**: Create a `CLAUDE.md` or `.cursorrules` file
+3. **Pick a single task**: Start small — a linter, a naming checker, a test verifier
+4. **Write explicit instructions**: Define steps, output format, and boundaries
+5. **Test it on real code**: Run the agent against your current branch
+6. **Iterate on the instructions**: Refine based on what the agent gets wrong
+7. **Share with your team**: Commit the configuration files to version control
 
 ---
 
